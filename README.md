@@ -8,7 +8,7 @@ Code and per-task results behind my post comparing Timestral, t0, Tabby and Morp
 | t0-gamma, inference adjustments off | 0.4535 / 0.6640 | | adjustments are worth 0.0015 CRPS |
 | Tabby-Pretrain, `--min_forecast_span 128` | 0.4827 / 0.7040 | 0.4827 / 0.7040 | every task within 0.4% |
 | Tabby-Pretrain, script default (span 0) | 0.4923 / 0.7192 | | 15 tasks more than 5% worse |
-| Timestral-209M | in progress | 0.4460 / 0.6575 | 79/97 tasks so far, each within 1e-6 of official |
+| Timestral-209M | 0.4460 / 0.6575 | 0.4460 / 0.6575 | every task within 1e-6 |
 
 Scores are geometric means over the 97 tasks of CRPS and MASE, each normalised by seasonal naive, as on the leaderboard.
 
